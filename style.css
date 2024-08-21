@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.o {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px auto;
+    max-width: 1200px;
+    padding: 20px;
+    background-color: #1b1d2b;
+    flex-wrap: wrap; 
+}
+
+.od {
+    text-align: left;
+    width: 100%;
+    max-width: 200px;
+    background-color: rgb(38, 38, 38);
+    padding: 20px;
+    border-radius: 10px;
+    padding-right: 40px;
+    color: white;
+}
+
+.od input[type="text"],
+.od input[type="password"],
+.od input[type="url"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+}
+
+.od button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.od button:hover {
+    background-color: #45a049;
+}
+
+.od img {
+    width: 50px;
+    height: 50px;
+}
+
+span {
+    margin: 10px 0;
+    display: block;
+}
+
+.jaun {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.ab {
+    text-align: left;
+    margin-top: 50px;
+    background-color: #1a242d;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.ab a {
+    display: block;
+    color: #000;
+    margin: 5px 0;
+    text-decoration: none;
+}
+
+.ab a:hover {
+    text-decoration: underline;
+}
+
+.ab img {
+    margin-top: 20px;
+    width: 100px;
+}
+
+.ab h4 {
+    margin-top: 20px;
+}
+
+.a {
+    margin: 20px 0;
+    background: rgb(72, 255, 79);
+}
+
+.line {
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+    max-width: 800px;
+    color: gray;
+    line-height: 2em;
+}
+
+a {
+   color: darkgrey;
+   text-decoration: none;
+}
+.jaun {
+    max-width: 500px;
+    height: auto;
+}
+.dada {
+    max-width: 50px;
+}
+@media (max-width: 768px) {
+    .o {
+        flex-direction: column;
+    }
+
+    .od {
+        margin-bottom: 20px;
+    }
+}
