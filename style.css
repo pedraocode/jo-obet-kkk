@@ -2,6 +2,8 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     padding: 20px;
+   color: #8a90a2;
+   background-color: aqua;
 }
 
 .o {
@@ -103,9 +105,9 @@ span {
 }
 
 .line {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #4c4c4c;
     margin: 20px 0;
-    max-width: 800px;
+    max-width: 8262600px;
     color: gray;
     line-height: 2em;
 }
@@ -113,6 +115,7 @@ span {
 a {
    color: darkgrey;
    text-decoration: none;
+   
 }
 .jaun {
     max-width: 500px;
@@ -121,6 +124,68 @@ a {
 .dada {
     max-width: 50px;
 }
+.aadada {
+    max-width: 700px;
+}
+.lado {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ 
+}
+.okok {
+    display: flex;
+    flex-direction: column;
+}
+
+.ala {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.ada {
+    padding-right: 970px;
+}
+.la {
+    background-color: #1b1d2b;
+    max-width: 2000px;
+}
+.oa, .oaa {
+    border-radius: 12px;
+    padding: 10px 20px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+
+.oa {
+    background-color: #1b1d2b;
+    max-width: 100%; 
+    flex: 1; 
+}
+
+
+.oaa {
+    background-color: rgb(72, 255, 79);
+    max-width: 100%; 
+    flex: 2; 
+}
+
+
+@media (max-width: 768px) {
+    .la {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .oa, .oaa {
+        margin: 10px 0;
+    }
+}
 @media (max-width: 768px) {
     .o {
         flex-direction: column;
@@ -128,5 +193,33 @@ a {
 
     .od {
         margin-bottom: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .la {
+        flex-direction: column;
+    }
+
+    .od {
+        width: 90%;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.2em;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+
+    .od input {
+        width: 100%;
+    }
+
+    .lado {
+        flex-direction: column;
     }
 }
