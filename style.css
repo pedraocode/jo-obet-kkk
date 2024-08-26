@@ -29,6 +29,14 @@ body {
     border-radius: 10px;
     padding-right: 40px;
     color: white;
+  
+}
+.icon-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+    gap: 10px;
 }
 
 .od input[type="text"],
@@ -43,28 +51,30 @@ body {
 }
 
 .od button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    margin: 10px 0;
+    background-color: rgb(72, 255, 79);
+    color: rgb(0, 0, 0);
+
+    
     border: none;
     border-radius: 25px;
     cursor: pointer;
     width: 100%;
+   
 }
 
 .od button:hover {
-    background-color: #45a049;
+    background-color:rgb(72, 255, 79);
 }
 
 .od img {
-    width: 50px;
+    width: 200px;
     height: 50px;
 }
 
 span {
     margin: 10px 0;
     display: block;
+    padding-left: 100px;
 }
 
 .jaun {
@@ -155,6 +165,7 @@ a {
 .la {
     background-color: #1b1d2b;
     max-width: 2000px;
+
    
 }
 .oa, .oaa {
@@ -165,7 +176,7 @@ a {
     cursor: pointer;
     display: inline-block;
     margin: 0px;
-    box-sizing: border-box;
+   
 }
 
 
@@ -196,8 +207,7 @@ a {
 }
 .ag {
     padding-right: 1000px;
-    padding-top: 10px;
-
+    max-width: 150px;
 }
 .ja {
     display: flex;
@@ -206,35 +216,31 @@ a {
 }
 
 @media (max-width: 768px) {
-    .la {
-        flex-direction: column; 
-        align-items: center; 
-    }
 
-    .oa, .oaa {
-        margin: 10px 0;
-    }
     input {
         max-width: 180px;
     }
-}
-@media (max-width: 768px) {
+
     .o {
         flex-direction: column;
     }
 
-    .od {
-        margin-bottom: 20px;
-    }
-}
-@media (max-width: 768px) {
+
     .la {
         flex-direction: column;
     }
 
     .od {
-        width: 90%;
-        padding: 15px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .item {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    .jaun {
+        max-width: 100%;
     }
 }
 
@@ -253,5 +259,20 @@ a {
 
     .lado {
         flex-direction: column;
+    }
+}
+@media (max-width: 768px) {
+    .la {
+        flex-direction: column; 
+        align-items: stretch;
+    }
+
+    .ag {
+        margin-bottom: 15px;
+    }
+
+    .oa, .oaa {
+        margin: 5px 0;
+        width: 100%;
     }
 }
